@@ -1,0 +1,12 @@
+
+> pos-backend@1.0.0 dev
+> tsx watch src/server.ts
+
+9:59:49 AM [tsx] Return key Restarting...
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+info: Server running on port 5000 {"timestamp":"2026-08-17T09:00:02.747Z"}
+info: ::1 - - [17/Aug/2026:09:03:32 +0000] "HEAD /health HTTP/1.1" 200 15 "-" "curl/8.16.0" {"timestamp":"2026-08-17T09:03:32.327Z"}
+info: ::1 - - [17/Aug/2026:09:15:48 +0000] "GET /api/customers HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36" {"timestamp":"2026-08-17T09:15:48.753Z"}
+info: ::1 - - [17/Aug/2026:09:15:48 +0000] "GET /api/sales HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36" {"timestamp":"2026-08-17T09:15:48.832Z"}
+info: ::1 - - [17/Aug/2026:09:15:48 +0000] "GET /api/products HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36" {"timestamp":"2026-08-17T09:15:48.837Z"}
